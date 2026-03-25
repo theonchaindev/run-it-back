@@ -72,22 +72,15 @@ export default function Home() {
 
         {/* Big title */}
         <h1
-          className="relative z-10 font-black uppercase leading-none mb-6"
+          className="relative z-10 font-black uppercase leading-none mb-10 text-white"
           style={{
-            fontSize: "clamp(72px, 16vw, 200px)",
+            fontSize: "clamp(60px, 13vw, 180px)",
             letterSpacing: "-0.05em",
-            background: "linear-gradient(180deg, #fde047 0%, #eab308 50%, #a16207 100%)",
-            WebkitBackgroundClip: "text",
-            WebkitTextFillColor: "transparent",
-            backgroundClip: "text",
-            textShadow: "none",
-            lineHeight: 0.9,
+            lineHeight: 1,
           }}
         >
-          RUN<br />IT<br />BACK
+          RUN IT BACK
         </h1>
-
-        <p className="relative z-10 text-white/50 text-xl mb-10">on Solana</p>
 
         {/* Alon tweet */}
         <div className="relative z-10 mb-10 max-w-sm w-full">
