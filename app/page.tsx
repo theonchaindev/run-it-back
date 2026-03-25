@@ -14,7 +14,7 @@ export default function Home() {
           <span className="text-lg font-black tracking-tight uppercase">Run It Back</span>
         </div>
         <a
-          href="https://x.com/search?q=%24RIB"
+          href="https://x.com/runitbackOG"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-2 bg-white text-black px-4 py-2 rounded-full text-sm font-bold hover:bg-yellow-300 transition-colors"
@@ -130,7 +130,7 @@ export default function Home() {
         </p>
         <div className="mt-4">
           <a
-            href="https://x.com/search?q=%24RIB"
+            href="https://x.com/runitbackOG"
             target="_blank"
             rel="noopener noreferrer"
             className="text-white/40 hover:text-white transition-colors text-sm"
