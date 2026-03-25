@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Run It Back | $RIB on Solana",
-  description: "let's run it the fuck back. $RIB on Solana.",
+  title: "Run It Back | $BACK on Solana",
+  description: "let's run it the fuck back. $BACK on Solana.",
 };
 
 export default function RootLayout({

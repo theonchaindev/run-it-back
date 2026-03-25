@@ -113,7 +113,7 @@ export default function Home() {
             <div className="bg-white/5 border border-white/10 rounded-2xl p-6">
               <div className="text-3xl mb-3">🔁</div>
               <h3 className="font-black text-lg uppercase mb-2 text-yellow-400">Run It Back</h3>
-              <p className="text-white/60 text-sm">461K views. One tweet. One movement. $RIB is the coin of the comeback.</p>
+              <p className="text-white/60 text-sm">461K views. One tweet. One movement. $BACK is the coin of the comeback.</p>
             </div>
           </div>
         </div>
@@ -126,7 +126,7 @@ export default function Home() {
           <span className="font-black uppercase tracking-tight text-white/60">Run It Back</span>
         </div>
         <p className="text-white/30 text-xs">
-          $RIB is a memecoin on Solana. Not financial advice. Run it back responsibly.
+          $BACK is a memecoin on Solana. Not financial advice. Run it back responsibly.
         </p>
         <div className="mt-4">
           <a
@@ -135,7 +135,7 @@ export default function Home() {
             rel="noopener noreferrer"
             className="text-white/40 hover:text-white transition-colors text-sm"
           >
-            $RIB on X →
+            $BACK on X →
           </a>
         </div>
       </footer>
