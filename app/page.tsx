@@ -45,15 +45,35 @@ export default function Home() {
         </div>
 
         {/* Repeating background text */}
-        <div className="absolute inset-0 overflow-hidden pointer-events-none select-none" style={{ opacity: 0.04 }}>
-          {Array.from({ length: 8 }).map((_, i) => (
-            <div key={i} className="whitespace-nowrap text-white font-black uppercase" style={{
-              fontSize: "clamp(60px, 10vw, 120px)",
-              lineHeight: 1.1,
-              letterSpacing: "-0.04em",
-              transform: `translateY(${i * 110}px) translateX(${i % 2 === 0 ? "-2%" : "2%"})`,
+        <div className="absolute inset-0 overflow-hidden pointer-events-none select-none" style={{ opacity: 0.05 }}>
+          {Array.from({ length: 10 }).map((_, i) => (
+            <div key={i} style={{
+              position: "absolute",
+              top: `${i * 11}%`,
+              left: 0,
+              right: 0,
+              overflow: "hidden",
             }}>
-              RUN IT BACK &nbsp; RUN IT BACK &nbsp; RUN IT BACK &nbsp; RUN IT BACK
+              <div
+                className={i % 2 === 0 ? "marquee-left" : "marquee-right"}
+                style={{
+                  display: "flex",
+                  whiteSpace: "nowrap",
+                  width: "200%",
+                  animationDuration: `${14 + i * 2}s`,
+                }}
+              >
+                {Array.from({ length: 8 }).map((_, j) => (
+                  <span key={j} className="text-white font-black uppercase" style={{
+                    fontSize: "clamp(50px, 9vw, 110px)",
+                    lineHeight: 1.1,
+                    letterSpacing: "-0.04em",
+                    paddingRight: "2rem",
+                  }}>
+                    RUN IT BACK
+                  </span>
+                ))}
+              </div>
             </div>
           ))}
         </div>
